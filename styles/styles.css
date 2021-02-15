@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: url(https://picsum.photos/1920/1080/?blur=5);
+    background-size: cover;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 4px #000,
+    inset 0 0 4px #000;
+    position: relative;
+}
