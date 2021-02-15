@@ -27,7 +27,6 @@ body{
 }
 
 .clock-face{
-    background-color: lightslategrey;
     position: relative;
     width: 100%;
     height: 100%;
