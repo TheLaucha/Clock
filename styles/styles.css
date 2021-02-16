@@ -34,7 +34,8 @@ body{
 
 .hand{
     background-color: black;
-    width: 50%;
+    margin-left: 10%;
+    width: 40%;
     height: 5px;
     position: absolute;
     top: 50%;
@@ -42,4 +43,81 @@ body{
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0, 1.88, 1, 1);
+}
+
+/* ---- NUMEROS ---- */
+
+.numbers{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+}
+
+.doce{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-45%);
+}
+
+.doce::before{
+    content: "";
+    width: 3px;
+    height: 60%;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    background-color: #000;
+}
+
+.tres{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-45%);
+}
+
+.tres::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    right: -15px;
+    top: 10px;
+    background-color: #000;
+}
+
+.seis{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-45%);
+}
+
+.seis::after{
+    content: "";
+    width: 3px;
+    height: 60%;
+    position: absolute;
+    left: 5px;
+    bottom: -15px;
+    background-color: #000;
+}
+
+.nueve{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-45%);
+}
+
+.nueve::before{
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: -15px;
+    top: 10px;
+    background-color: #000;
 }
